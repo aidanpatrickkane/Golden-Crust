@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
+import { VoiceChatbotScript } from "@/components/voice-chatbot-script"
 
 export default function MenuPage() {
   const menuCategories = [
@@ -232,6 +233,9 @@ export default function MenuPage() {
           </div>
         </section>
       </main>
+
+      <VoiceChatbotScript />
+      
 
       <Footer />
     </div>

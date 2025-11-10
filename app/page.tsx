@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
 import { Clock, Heart, Wheat, Award } from "lucide-react"
+import { VoiceChatbotScript } from "@/components/voice-chatbot-script"
 
 export default function HomePage() {
   return (
@@ -223,6 +224,8 @@ export default function HomePage() {
           </div>
         </section>
       </main>
+
+      <VoiceChatbotScript />
 
       <Footer />
     </div>
